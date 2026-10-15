@@ -1,0 +1,49 @@
+# ---- Python bytecode / caches ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Secrets / local config ----
+.env
+.env.*
+!.env.example
+
+# ---- Tooling caches / coverage ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- Build / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS noise ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Project data / local artifacts ----
+*.sqlite
+*.sqlite3
+*.db
+/data/
+/logs/
+*.log
+
+# ---- Docker local overrides ----
+docker-compose.override.yml
